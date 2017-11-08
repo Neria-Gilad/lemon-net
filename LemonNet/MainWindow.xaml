@@ -1,0 +1,22 @@
+﻿<Window x:Class="LemonNet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="אינטרנט לימון - כשהחיים נותנים לך רימונים " Height="400" Width="550" FlowDirection="RightToLeft" ResizeMode="CanMinimize">
+    <Grid>
+
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <TextBlock TextWrapping="Wrap" TextAlignment="Center" Text="המידע האישי שלך כרגע " FontSize="20"/>
+                <TextBlock x:Name="ShortInfoText" TextWrapping="Wrap" TextAlignment="Center" Text="sample text" FontWeight="Bold" FontSize="20"/>
+
+            </StackPanel>
+            <Button x:Name="ToggleButton" Content="Button" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="142" Click="ToggleButton_Click" Margin="26,20,25.6,20" FontSize="14" />
+            <TextBlock x:Name="LongInfoText" TextWrapping="Wrap" TextAlignment="Center" Text="sample text" FontSize="14"/>
+
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Center" Text="Gilad Weiss | Neria Tzidkani | Shoham Jacobsen&#xD;&#xA;Lemongrab Co." FlowDirection="LeftToRight" Margin="0,0,0,10" Foreground="#FF595959"/>
+    </Grid>
+</Window>
